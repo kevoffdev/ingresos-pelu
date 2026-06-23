@@ -12,7 +12,7 @@ interface DayRecord {
   cuts: number[];  // Array con el valor de cada corte
 }
 
-const COMMON_PRICES = [10000, 11000, 12000, 13000, 14000, 15000];
+const COMMON_PRICES = [12000 ,13500, 14000, 15000, 17000, 18500];
 
 export default function Home() {
   const [records, setRecords] = useState<DayRecord[]>([]);
